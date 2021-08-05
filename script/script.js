@@ -68,7 +68,7 @@ function calcBarbecue() {
       resultado.innerHTML += `<p>🥩  ${quantidadeCarne} gramas de Carne`
   }
   if (caixinha2 == true){
-    resultado.innerHTML += `<p><img class="imagem2" src="https://img.icons8.com/fluency/48/000000/sausage.png" height="20px">     ${quantidadeLinguica} gramas de Linguiça`
+    resultado.innerHTML += `<p><img class="imagem2" src="https://img.icons8.com/fluency/48/000000/sausage.png" height="19px">     ${quantidadeLinguica} gramas de Linguiça`
   }
   if(caixinha3 == true){
     resultado.innerHTML += `<p>🍗  ${quantidadeFrango} gramas de Frango`

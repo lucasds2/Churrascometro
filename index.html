@@ -14,9 +14,9 @@
     <div class="container">
         <h1>Churrascometro</h1>
         <form id="form">
-            <input class="numbers" type="number" id="adultos" name="adultos" placeholder="Quantidade de Adultos">
-            <input class="numbers" type="number" id="criancas" name="criancas" placeholder="Quantidade de Crianças">
-            <input class="numbers" type="number" id="duracao" name="duracao" placeholder="Duração do Churrasco">
+            <input class="numbers" onkeypress='return event.charCode >= 48 && event.charCode <= 57' type="text" id="adultos" name="adultos" placeholder="Quantidade de Adultos">
+            <input class="numbers" onkeypress='return event.charCode >= 48 && event.charCode <= 57' type="text" id="criancas" name="criancas" placeholder="Quantidade de Crianças">
+            <input class="numbers" onkeypress='return event.charCode >= 48 && event.charCode <= 57' type="text" id="duracao" name="duracao" placeholder="Duração do Churrasco">
             <input class='escolhas' type="checkbox" name="carne" id="carne">
             <label for="carne">Carne 🍖</label><br>
             <input class='escolhas' type="checkbox" name="linguica" id="linguica">

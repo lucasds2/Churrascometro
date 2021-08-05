@@ -19,9 +19,9 @@ function carnePessoa(duracao) {
 
 function linguicaPessoa(duracao) {
   if (duracao >= 6) {
-    return 150
+    return 200
   } else {
-    return 100
+    return 150
   }
 }
 
@@ -56,12 +56,13 @@ function calcBarbecue() {
   let caixinha1 = carne.checked
   let caixinha2 = linguica.checked
   let caixinha3 = frango.checked
+  
 
-  let quantidadeCarne = carnePessoa(duracao) * totalAdultos + (carnePessoa(duracao) / 2 * (totalCriancas))
-  let quantidadeLinguica = linguicaPessoa(duracao) * totalAdultos + (linguicaPessoa(duracao) / 2 * (totalCriancas))
-  let quantidadeFrango = frangoPessoa(duracao) * totalAdultos + (linguicaPessoa(duracao) / 2 * (totalCriancas))
-  let quantidadeCerveja = cervejaPessoa(duracao) * totalAdultos
-  let quantidadeBebidas = bebidasPessoa(duracao) * totalAdultos + (bebidasPessoa(duracao) / 2 * (totalCriancas))
+  let quantidadeCarne = carnePessoa(totalDuracao) * totalAdultos + (carnePessoa(duracao) / 2 * (totalCriancas))
+  let quantidadeLinguica = linguicaPessoa(totalDuracao) * totalAdultos + (linguicaPessoa(duracao) / 2 * (totalCriancas))
+  let quantidadeFrango = frangoPessoa(totalDuracao) * totalAdultos + (linguicaPessoa(duracao) / 2 * (totalCriancas))
+  let quantidadeCerveja = cervejaPessoa(totalDuracao) * totalAdultos
+  let quantidadeBebidas = bebidasPessoa(totalDuracao) * totalAdultos + (bebidasPessoa(duracao) / 2 * (totalCriancas))
 
   if (caixinha1 == true){
       resultado.innerHTML += `<p>🥩  ${quantidadeCarne} gramas de Carne`

@@ -9,10 +9,11 @@ Um calculador de quanto você vai precisar para fazer um churrasco, coloque a qu
 <a href="https://vlaad07.github.io/Churrascometro/">Clique aqui para ver o site</a>
 
 
+![program2](https://user-images.githubusercontent.com/67769304/128421062-3a639118-1d33-4f77-a588-e25295e7b6b1.png)
+![olo](https://user-images.githubusercontent.com/67769304/128420577-6ddd94d8-03f9-45f2-b414-3d050fa68759.gif)
+![ola](https://user-images.githubusercontent.com/67769304/128421101-17d8d803-c36c-479c-be5f-e97a512d9144.gif)
 
-![image-20210805165522671](/home/lucas/.config/Typora/typora-user-images/image-20210805165522671.png)
 
-![olo](/media/lucas/HD/Video/olo.gif)
 
-![ola](/media/lucas/HD/Video/ola.gif)
+
 
